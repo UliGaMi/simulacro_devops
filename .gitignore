@@ -1,0 +1,47 @@
+# Entorno de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+ENV/
+env/
+venv/
+ENV.bak/
+venv.bak/
+
+# Archivos de configuración del entorno
+.env
+*.env
+
+# Directorios de logs
+logs/
+*.log
+
+# Configuración del IDE
+.vscode/
+.idea/
+
+# Archivos de paquetes y distribuciones
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos de instalación
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de test
+.tox/
+.cache/
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Subidas y otros archivos generados por la aplicación
+uploads/
+instance/
